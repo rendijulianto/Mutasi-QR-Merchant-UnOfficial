@@ -1,26 +1,42 @@
-# 🚀 BCA QR Merchant Mutation Checker API
+Ini README-nya yang sudah dirapikan, tanpa redundansi, alur lebih logis:
+
+---
+
+# 🚀 API Cek Mutasi BCA QR Merchant — Unofficial
 
 > Solusi otomatis untuk **mengambil data mutasi transaksi QR Merchant BCA** — cepat, stabil, dan siap diintegrasikan ke berbagai sistem seperti dashboard admin, monitoring transaksi, maupun aplikasi fintech.
 
 ---
 
-## ✨ Features
+## ✨ Fitur Utama
 
 | Fitur | Deskripsi |
 |---|---|
 | 🔐 **Secure Login** | Autentikasi aman untuk akses merchant |
-| 📅 **Mutasi Harian** | Ambil data transaksi berdasarkan tanggal hari ini |
+| 📅 **Mutasi Harian** | Data transaksi berdasarkan tanggal hari ini |
 | 📆 **Mutasi Mingguan** | Monitoring transaksi dalam 7 hari terakhir |
 | 🗓️ **Mutasi Bulanan** | Rekap transaksi selama 1 bulan penuh |
 | 📊 **Structured Response** | Output JSON rapi dan mudah diolah |
 | ⚡ **Fast & Lightweight** | Dioptimalkan untuk performa tinggi |
-| 🔄 **Ready Integration** | Mudah diintegrasikan ke Laravel, Node.js, dan backend lainnya |
+| 🔄 **Ready Integration** | Siap dipakai di Laravel, Node.js, dan backend lainnya |
+
+---
+
+## 👥 Cocok Untuk Siapa?
+
+| Target Pengguna | Kenapa Cocok? |
+|---|---|
+| 🏪 **Pemilik Toko / UMKM** | Pantau pemasukan QRIS harian tanpa buka aplikasi BCA manual |
+| 💻 **Developer / Freelancer** | Integrasikan ke sistem klien dengan cepat |
+| 🏢 **Tim Finance & Akuntansi** | Ekspor rekap transaksi otomatis untuk pembukuan |
+| 🛍️ **E-commerce & Marketplace** | Validasi pembayaran QRIS secara real-time |
+| 📊 **Startup & Fintech** | Bangun dashboard monitoring transaksi yang scalable |
+| 🤝 **Payment Gateway Provider** | Rekonsiliasi transaksi QRIS multi-merchant terpusat |
+| 🎓 **Developer Pemula** | Dokumentasi lengkap, struktur kode mudah dipahami |
 
 ---
 
 ## 📦 Use Cases
-
-Script ini cocok digunakan untuk:
 
 - ✅ Sistem **monitoring pembayaran QRIS**
 - ✅ Dashboard **laporan keuangan merchant**
@@ -29,64 +45,7 @@ Script ini cocok digunakan untuk:
 
 ---
 
-## 📥 Installation
-
-**PHP / Laravel:**
-
-```bash
-git clone https://your-repo-url.git
-cd bca-qris-mutation
-composer install
-```
-
-**Node.js:**
-
-```bash
-npm install
-```
-
----
-
-## ⚙️ Configuration
-
-Sesuaikan credential pada file `.env`:
-
-```env
-BCA_USERNAME=your_username
-BCA_PASSWORD=your_password
-```
-
----
-
-## 🚀 Usage
-
-### 1. Login
-
-```bash
-php artisan bca:login
-```
-
-### 2. Cek Mutasi Harian
-
-```bash
-php artisan bca:mutation --type=daily
-```
-
-### 3. Cek Mutasi Mingguan
-
-```bash
-php artisan bca:mutation --type=weekly
-```
-
-### 4. Cek Mutasi Bulanan
-
-```bash
-php artisan bca:mutation --type=monthly
-```
-
----
-
-## 📄 Example Response
+## 📄 Contoh Response
 
 ```json
 {
@@ -106,40 +65,29 @@ php artisan bca:mutation --type=monthly
 
 ---
 
-## 🔐 Security Notes
+## 🔐 Catatan Keamanan
 
-- Pastikan credential **tidak dibagikan secara publik**
-- Gunakan `.env` untuk menyimpan data sensitif
-- Disarankan menggunakan **proxy / IP whitelist** jika diperlukan
+- Jangan bagikan credential secara publik
+- Simpan data sensitif di file `.env`
+- Gunakan **proxy / IP whitelist** jika diperlukan
 
 ---
 
 ## ⚠️ Disclaimer
 
-Script ini dibuat untuk kebutuhan automasi dan monitoring internal. Gunakan dengan bijak dan sesuai dengan kebijakan dari pihak bank terkait.
+Script ini dibuat untuk kebutuhan **automasi dan monitoring internal**. Gunakan dengan bijak sesuai kebijakan bank terkait.
 
 ---
 
-## 💼 Why Choose This Script?
+## 📞 Support & Kontak
 
-- ✔ **Stabil & sudah teruji** di lingkungan produksi
-- ✔ **Response cepat & akurat** tanpa overhead berlebih
-- ✔ **Mudah digunakan** bahkan untuk non-expert sekalipun
-- ✔ **Support pengembangan lanjutan** sesuai kebutuhan bisnis
-
----
-
-## 📞 Support & Contact
-
-Butuh bantuan integrasi atau custom feature? Hubungi kami:
+Butuh bantuan integrasi atau custom feature?
 
 - 📧 **Email:** rendijulianto37@gmail.com
 - 💬 **WhatsApp / Telegram:** 082129632854
 
 ---
 
-## ⭐ Closing
-
 > *"Automate your transaction tracking. Save time. Scale faster."*
 
-Solusi praktis untuk kamu yang butuh monitoring transaksi QR Merchant BCA secara otomatis — tanpa ribet, tanpa drama.
+---
